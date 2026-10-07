@@ -30,12 +30,8 @@ The project contains the following tables:
 - `Payments` – customer payment transactions.
 
 <br>
-
-Picture bellow:
 <img width="1020" height="812" alt="image" src="https://github.com/user-attachments/assets/fc475c04-3302-4629-b4a3-ba1c59d8eba9" />
 
-
-<br>
 
 ### 2.2. What is stored in the database?
 <img width="1071" height="893" alt="image" src="https://github.com/user-attachments/assets/b8a74241-d987-4566-b17d-a34d706ff57b" />
