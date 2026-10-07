@@ -74,9 +74,10 @@ customer balance and estimates whether each invoice is unpaid, partially paid or
 documented.
 <br>
 - A future `InvoicePayments` table could support precise allocation of payments to individual invoices.
+
+  
 <br>
 - The main outcome is a practical SQL Server reporting solution that connects business requirements, relational data modelling, financial logic and testable reporting results.
-- The client's requirements may become more complex over time. For example, a customer may be allowed to pay an invoice in several installments instead of settling the full amount in one payment. This could be supported by introducing an InvoiceInstallments table and extending the procedure with UNION ALL logic to process invoices, installments and payments in a common transaction stream.
 
----
+
 
