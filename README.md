@@ -72,11 +72,7 @@ The goal is to develop a reporting procedure (**spGetInvoicePayingDetails**) tha
 customer balance and estimates whether each invoice is unpaid, partially paid or fully paid.
 - Although the current solution works at customer level and does not provide complete invoice-level payment allocation, this limitation is explicitly
 documented.
-<br>
 - A future `InvoicePayments` table could support precise allocation of payments to individual invoices.
-
-  
-<br>
 - The main outcome is a practical SQL Server reporting solution that connects business requirements, relational data modelling, financial logic and testable reporting results.
 
 
