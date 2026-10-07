@@ -1,4 +1,4 @@
-<img width="952" height="887" alt="image" src="https://github.com/user-attachments/assets/b75a8eb3-d356-4622-991f-6859e5800343" /># Finance-Accounting Portfolio Mini Project
+
 
 ---
 
