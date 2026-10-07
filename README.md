@@ -58,6 +58,11 @@ The goal is to develop a reporting procedure (**spGetInvoicePayingDetails**) tha
 - Example 2: Report for a specific customer
 <img width="968" height="551" alt="image" src="https://github.com/user-attachments/assets/c53d44d4-be11-4b42-bc83-027fbab59ee8" />
 
+### 3.3. Procedure report analysis
+- The procedure takes an optional parameter CustomerId (filter)
+- When executing this SQL procedure, we get two result-sets:
+    - 1st result-set contains a list of all the payments and invoices sorted by date column - ExecutedAt. This result-set is a confirmation that an invoice is paid or not, which can be determined by analysing the OwingAmount column
+    - 2nd result-set contains more useful information (there is a column - IsPaid, which can tell us if an Invoice is paid or not)
 <br>
 ---
 
