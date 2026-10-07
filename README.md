@@ -1,4 +1,4 @@
-# Finance-Accounting Portfolio Mini Project
+<img width="952" height="887" alt="image" src="https://github.com/user-attachments/assets/b75a8eb3-d356-4622-991f-6859e5800343" /># Finance-Accounting Portfolio Mini Project
 
 ---
 
@@ -49,10 +49,28 @@ The goal is to develop a reporting procedure (**spGetInvoicePayingDetails**) tha
 - estimates whether an invoice has been paid by its due date
 - supports filtering by a specific customer or returning results for all customers.
 
+### 3.2. Example
+- Example 1: Fetch records for all customers
+<img width="952" height="887" alt="image" src="https://github.com/user-attachments/assets/98c38f43-7058-4a1a-96d4-ccd65c70ae9e" />
+
+<br>
+
+- Example 2: Report for a specific customer
+<img width="968" height="551" alt="image" src="https://github.com/user-attachments/assets/c53d44d4-be11-4b42-bc83-027fbab59ee8" />
+
+<br>
 ---
 
 ## 3. Conclusion
-
+- This project demonstrates a problem-solving approach to invoice payment tracking.
+- Instead of relying on a simple invoice-to-payment join, the solution combines chronological invoice and payment transactions, calculates a running
+customer balance and estimates whether each invoice is unpaid, partially paid or fully paid.
+- Although the current solution works at customer level and does not provide complete invoice-level payment allocation, this limitation is explicitly
+documented.
+<br>
+- A future `InvoicePayments` table could support precise allocation of payments to individual invoices.
+<br>
+- The main outcome is a practical SQL Server reporting solution that connects business requirements, relational data modelling, financial logic and testable reporting results.
 
 
 ---
