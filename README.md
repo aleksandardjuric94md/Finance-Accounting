@@ -18,9 +18,6 @@ The client requested a solution (stored procedure) that would help answer the fo
 - The main challenge is that payments are not always directly linked to a specific invoice.
 - Therefore, payment status cannot always be determined by simply joining an invoice to a payment record.
 
-### 1.2. How are the tables structured in the database?
-
-
 ---
 
 ## 2. Data Model
@@ -31,14 +28,6 @@ The project contains the following tables:
 - `InvoiceServices` – services that can appear on an invoice;
 - `Invoices` – customer invoices and their amounts;
 - `Payments` – customer payment transactions.
-
-In other words, the main relationships are:
-
-```text
-Customers
-   ├── Invoices
-   │      └── InvoiceServices
-   └── Payments
 
 <br>
 
